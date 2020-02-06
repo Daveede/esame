@@ -1,0 +1,136 @@
+
+html{
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.headline2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: -0.5px;
+
+  /* 00. On Surface / High Emphasis */
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.active{
+  border-bottom: solid;
+  border-color:#00c8fa
+  border-width:thick;
+
+}
+
+.reviewstars{
+  color:gold;
+}
+
+.wrapper{
+  padding:2vh;
+
+}
+
+.responsive-img{
+width: 20vw;
+height: auto;
+transform: scale(2.5);
+overflow: hidden;
+
+}
+
+
+.cardmargin{
+  margin-top: 2vh;
+}
+
+
+.cardcontainer{
+  background-color: white;
+border-radius: 5px;
+overflow: hidden;
+border: 1px solid #C6C6C6;
+box-sizing: border-box;
+border-radius: 10px;
+min-height:10vh;
+
+
+}
+
+.jumbotron{
+  border: 1px solid #C6C6C6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+
+}
+.nav{
+  background-color: white;
+  height:8vh;
+  padding-top:1vh;
+  border: 1px solid #C6C6C6;
+  box-sizing: border-box;
+}
+
+
+.piccontainer{
+
+  background-color: red;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.piccontainer img{
+  height:150px;
+  width: auto;
+}
+
+
+.textcontainer{
+  margin-top: 20px;
+
+}
+
+.cardtitle{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.5px;
+
+
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top:-5px;
+  padding: none;
+
+
+}
+
+.cardsubtitle{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+/* identical to box height, or 171% */
+  letter-spacing: 0.1px;
+
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+}
