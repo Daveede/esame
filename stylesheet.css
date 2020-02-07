@@ -7,6 +7,9 @@ body{
 
 }
 
+form{
+  padding-top:5vh;
+}
 .headline2{
   font-family: Roboto;
   font-style: normal;
@@ -39,7 +42,7 @@ body{
 }
 
 .responsive-img{
-width: 20vw;
+max-width: 100%;
 height: auto;
 transform: scale(2.5);
 overflow: hidden;
@@ -58,7 +61,6 @@ border-radius: 5px;
 overflow: hidden;
 border: 1px solid #C6C6C6;
 box-sizing: border-box;
-border-radius: 10px;
 min-height:10vh;
 
 
@@ -82,8 +84,6 @@ min-height:10vh;
 
 
 .piccontainer{
-
-  background-color: red;
   padding: 0;
   overflow: hidden;
 
@@ -93,6 +93,28 @@ min-height:10vh;
   height:150px;
   width: auto;
 }
+
+.addcontainer{
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #C6C6C6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 3vh;
+
+}
+
+.addcontainer img{
+  flex-shrink: 0;
+    max-width: 100%;
+    max-height: auto;
+
+}
+
+
 
 
 .textcontainer{
@@ -134,3 +156,58 @@ min-height:10vh;
 
 
 }
+
+.avatartext{
+  padding-top: 20px;
+}
+
+/*Profile Pic Start*/
+.picture-container{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+
+}
+.picture{
+    width: 50%;
+    height: auto;
+    border: 1px solid #C6C6C6;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.picture:hover{
+    border-color: #2ca8ff;
+}
+.content.ct-wizard-green .picture:hover{
+    border-color: #05ae0e;
+}
+.content.ct-wizard-blue .picture:hover{
+    border-color: #3472f7;
+}
+.content.ct-wizard-orange .picture:hover{
+    border-color: #ff9500;
+}
+.content.ct-wizard-red .picture:hover{
+    border-color: #ff3b30;
+}
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.picture-src{
+    width: 100%;
+
+}
+/*Profile Pic End*/
