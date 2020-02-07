@@ -4,7 +4,7 @@ html{
 
 body{
   font-family: 'Roboto', sans-serif;
-
+  margin-bottom: 8vh;
 }
 
 form{
@@ -61,8 +61,7 @@ border-radius: 5px;
 overflow: hidden;
 border: 1px solid #C6C6C6;
 box-sizing: border-box;
-min-height:10vh;
-
+max-height:15vh;
 
 }
 
@@ -84,14 +83,19 @@ min-height:10vh;
 
 
 .piccontainer{
-  padding: 0;
-  overflow: hidden;
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-height:15vh;
 
 }
 
 .piccontainer img{
-  height:150px;
-  width: auto;
+flex-shrink: 0;
+  height: auto;
+  width:100%;
 }
 
 .addcontainer{
@@ -103,7 +107,7 @@ min-height:10vh;
     border: 1px solid #C6C6C6;
     box-sizing: border-box;
     border-radius: 5px;
-    margin-top: 3vh;
+    margin-top: 1vh;
 
 }
 
