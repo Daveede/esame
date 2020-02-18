@@ -1,82 +1,95 @@
-  <!doctype html>
-  <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.CSS">
-    <script src="https://kit.fontawesome.com/9e3fdb6a19.js" crossorigin="anonymous"></script>
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="wrapper">
+  <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.CSS">
+  <script src="https://kit.fontawesome.com/9e3fdb6a19.js" crossorigin="anonymous"></script>
+  <title>Aggiungi cuoco</title>
+</head>
+<body>
 
-      <div class="container">
-    <div class="picture-container">
-        <div class="picture">
-            <img src="images/genericuser.jpg" class="picture-src" id="wizardPicturePreview" title="">
-            <input type="file" id="wizard-picture" class="">
+  <div class="sticky-top topnav ">
+    <a href="javascript:history.back()"><div class="d-flex">
+      <div class="col-1">
+        <i class="material-icons">arrow_back_ios</i></i>
+      </div>
+      <div class="col">
+        <h5>Indietro</h5>
+      </div>
+    </div></a>
+  </div>
+
+  <div class="wrapper">
+
+    <div class="container">
+      <div class="picture-container ">
+        <div class="picture bordo">
+          <img src="images/genericuser.jpg" class="picture-src">
+          <input type="file"class="">
         </div>
-         <h6 class="avatartext">Aggiungi foto del profilo</h6>
+        <h6 class="avatartext">Aggiungi foto del profilo</h6>
 
+      </div>
     </div>
       <form class="needs-validation" novalidate>
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationCustom01">Nome</label>
-      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="John" required>
-    </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01">Nome</label>
+            <input type="text" class="form-control bordo" id="validationCustom01" placeholder="First name" value="John" required>
+          </div>
 
-    <div class="col-md-4 mb-3">
-      <label for="validationCustom02">Cognome</label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Appleseed" required>
-    </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom02">Cognome</label>
+            <input type="text" class="form-control bordo" id="validationCustom02" placeholder="Last name" value="Appleseed" required>
+          </div>
 
-    <div class="col-md-4 mb-3">
-      <label for="validationCustom02">Email</label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="example@example.com" required>
-    </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom02">Email</label>
+            <input type="text" class="form-control bordo" id="validationCustom02" placeholder="Last name" value="example@example.com" required>
+          </div>
 
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom03">Città</label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-    </div>
-  </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationCustom03">Città</label>
+            <input type="text" class="form-control bordo" id="validationCustom03" placeholder="City" required>
+          </div>
+        </div>
 
-  <div class="dropdown-divider"></div>
+        <div class="dropdown-divider"></div>
 
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationCustom03">Ruolo ricoperto</label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="Sous Chef" required>
-    </div>
-  </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationCustom03">Ruolo ricoperto</label>
+            <input type="text" class="form-control bordo" id="validationCustom03" placeholder="Sous Chef" required>
+          </div>
+        </div>
 
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Anni di esperienza</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5+</option>
-    </select>
-  </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Anni di esperienza</label>
+          <select class="form-control bordo" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5+</option>
+          </select>
+        </div>
 
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Descrivi il tuo tipo di cucina</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Descrivi il tuo tipo di cucina</label>
+          <textarea class="form-control bordo" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
 
-  <button class="btn-block btn-lg btn-primary" type="submit">Inserisci nuovo cuoco</button>
-</form>
+        <button class="btn-block btn-lg btn-primary bottone" type="submit">Inserisci nuovo cuoco</button>
+      </form>
     </div>
 
     <ul class="nav fixed-bottom justify-content-around" style="font-size: 0.5rem;">
@@ -92,5 +105,5 @@
       </li>
 
     </ul>
-
-  </body>
+  </div>
+</body>
